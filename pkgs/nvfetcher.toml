@@ -67,9 +67,10 @@ fetch.git = "https://github.com/theRealPadster/spicetify-hide-podcasts"
 src.git = "https://github.com/einzigartigerName/spicetify-history"
 fetch.git = "https://github.com/einzigartigerName/spicetify-history"
 
-[genreSrc]
-src.git = "https://github.com/Shinyhero36/Spicetify-Genre"
-fetch.git = "https://github.com/Shinyhero36/Spicetify-Genre"
+[betterGenreSrc]
+sc.git = "https://github.com/Vexcited/better-spotify-genres"
+src.branch = "build"
+fetch.git = "https://github.com/Vexcited/better-spotify-genres"
 
 [lastfmSrc]
 src.git = "https://github.com/LucasBares/spicetify-last-fm"
