@@ -2,7 +2,7 @@
   description = "A nix flake that provides a home-manager module to configure spicetify with.";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -65,7 +65,12 @@
             (pkgs.callPackage ./pkgs {}).themes
             ["override" "overrideDerivation"]);
       };
-
-      formatter = pkgs.alejandra;
+      devShells = {
+        default = pkgs.mkShell {
+          packages = [
+            pkgs.nvfetcher
+          ];
+        };
+      };
     });
 }
