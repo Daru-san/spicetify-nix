@@ -30,12 +30,10 @@ jobs:
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
               
     - name: Update flake.lock
+      if: ${{ github.event_name != 'pull_request' }}
       uses: DeterminateSystems/update-flake-lock@main
       with:
-        pr-title: "Update flake.lock" 
-        pr-labels: |                 
-          dependencies
-          automated
+         path-to-flake-dir: '.'
             
     - name: Run nvfetcher
       run: |
