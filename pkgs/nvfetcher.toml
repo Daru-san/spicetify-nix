@@ -141,7 +141,7 @@ src.github = "harbassan/spicetify-apps"
 src.regex = "stats-v*"
 src.from_pattern = "stats-v*"
 src.prefix = "stats-v*"
-fetch.tarball = "https://github.com/harbassan/spicetify-apps/releases/download/$ver/spicetify-stats.release.zip"
+fetch.tarball = "https://github.com/harbassan/spicetify-apps/releases/download/stats-v0.3.2/spicetify-stats.release.zip"
 
 [spicetifyLibrarySrc]
 src.github = "harbassan/spicetify-apps"
