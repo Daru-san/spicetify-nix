@@ -27,6 +27,19 @@
     };
     date = "2024-02-22";
   };
+  betterLibrarySrc = {
+    pname = "betterLibrarySrc";
+    version = "c8438030837ce904cf8dc5308cfae15dc793aebd";
+    src = fetchgit {
+      url = "https://github.com/Sowgro/betterLibrary";
+      rev = "c8438030837ce904cf8dc5308cfae15dc793aebd";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-8xdhNvL2yF9bFzEH4JUAcOxexdoif9czpUHI3K7cPWk=";
+    };
+    date = "2024-03-26";
+  };
   bloomSrc = {
     pname = "bloomSrc";
     version = "1062e0731ee567d045f4deb6eccdd1a17fba5ee3";
@@ -351,6 +364,19 @@
       sha256 = "sha256-soJ58sJVPpwNkWtfLVEDQ4tuskI6fXPXXM6rxnxFXsM=";
     };
     date = "2023-09-24";
+  };
+  spicetifyAppsSrc = {
+    pname = "spicetifyAppsSrc";
+    version = "7db99c2542088f87c981f891337a60209752db33";
+    src = fetchgit {
+      url = "https://github.com/harbassan/spicetify-apps";
+      rev = "7db99c2542088f87c981f891337a60209752db33";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-CBlKfdqgvYpn/R2a+BwlSc1pJoccUZlG5lYpm/EbggU=";
+    };
+    date = "2024-05-01";
   };
   spotifyCanvasSrc = {
     pname = "spotifyCanvasSrc";
