@@ -9,8 +9,20 @@ with source; {
 
   betterLibrary = {
     name = "betterLibrary";
-    src = betterLibrarySrc;
-    appendName = false;
+    src = "${betterLibrarySrc}/CustomApps";
+    appendName = true;
+  };
+
+  library = {
+    name = "library";
+    src = spicetifyAppsSrc;
+    appendName = true;
+  };
+
+  statistics = {
+    name = "stats";
+    src = spicetifyAppsSrc;
+    appendName = true;
   };
 
   marketplace = {

@@ -132,6 +132,10 @@ src.git = "https://github.com/spicetify/spicetify-marketplace"
 src.branch = "dist"
 fetch.git = "https://github.com/spicetify/spicetify-marketplace"
 
-[betterFilesSrc]
+[betterLibrarySrc]
 src.git = "https://github.com/Sowgro/betterLibrary"
 fetch.git = "https://github.com/Sowgro/betterLibrary"
+
+[spicetifyAppsSrc]
+src.git = "https://github.com/harbassan/spicetify-apps"
+fetch.git = "https://github.com/harbassan/spicetify-apps"
