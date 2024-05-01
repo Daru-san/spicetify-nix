@@ -1,15 +1,24 @@
 {
   pkgs,
-  spicetify-nix,
+  inputs,
   ...
 }: let
-  spicePkgs = spicetify-nix.pkgSets.${pkgs.system};
+  # Import the spicetify package set
+  spicePkgs = inputs.spicetify-nix.packages.${pkgs.system}.default;
 in {
+  # Import the module from your inputs
+  imports = [inputs.spicetify-nix.homeManagerModule];
   # configure spicetify :)
   programs.spicetify = {
-    enable = true; # this is the line that will cause spotify to get installed
-    theme = spicePkgs.themes.Dribbblish;
-    colorScheme = "gruvbox";
+    # Enable the module and install your spiced spotify
+    enable = true;
+
+    # Your spicetify theme
+    theme = spicePkgs.themes.Sleek;
+    colorScheme = "BladeRunner";
+
+    # Specify your spotify package (incase you may want to use overrides)
+    spotifyPackage = pkgs.spotify;
 
     enabledCustomApps = with spicePkgs.apps; [
       new-releases
@@ -19,11 +28,11 @@ in {
     ];
 
     enabledExtensions = with spicePkgs.extensions; [
-      # "playlistIcons.js" # only needed if not using dribbblish
-      "fullAlbumDate.js"
-      "showQueueDuration.js"
-      "playNext.js"
-      "shuffle+.js"
+      fullAppDisplay
+      bookmark
+      history
+      keyboardShortcut
+      adblock
     ];
   };
 
@@ -35,6 +44,4 @@ in {
       type = "Application";
     };
   };
-
-  imports = [spicetify-nix.homeManagerModule];
 }

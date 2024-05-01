@@ -15,13 +15,20 @@
     homeDirectory = "/home/${username}";
   };
 
-  # list where you can specify unfree packages to allow
-  nixpkgs.config.allowUnfreePredicate = pkg:
+  # Enable unfree packages
+  nixpkgs.config = {
+    allowUnfree = true;
+    allowUnfreePredicate = _: true;
+  };
+
+  # If you'd rather only have spotify
+  nixpkgs.config.allowUnfreePredicate = pkgs:
     builtins.elem (lib.getName pkg) [
       "spotify"
     ];
 
   home.packages = with pkgs; [
     # put packages you want to install here
+    firefox
   ];
 }
