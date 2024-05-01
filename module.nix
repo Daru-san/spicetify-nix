@@ -3,9 +3,9 @@
   pkgs,
   config,
   ...
-}:
-with lib; let
+}: let
   inherit (pkgs) callPackage;
+  inherit (lib) mkEnableOption mkOption types mkIf;
   cfg = config.programs.spicetify;
   spiceLib = callPackage ./lib {};
   spiceTypes = spiceLib.types;
@@ -62,7 +62,7 @@ in {
       example = ''
         [
           "dribbblish.js"
-          "shuffle+.js"
+          spicePkgs.shuffle
           {
             src = pkgs.fetchgit {
               url = "https://github.com/LucasBares/spicetify-last-fm";
@@ -77,6 +77,22 @@ in {
     enabledCustomApps = mkOption {
       type = types.listOf (types.oneOf [spiceTypes.app types.str]);
       default = [];
+      example = ''
+        let
+          # Add your own custom plugins
+          betterLibrarySrc = pkgs.fetchzip {
+            url = "https://github.com/Sowgro/betterLibrary/archive/refs/tags/3.0.zip";
+            hash = "sha256-8xdhNvL2yF9bFzEH4JUAcOxexdoif9czpUHI3K7cPWk=";
+        };
+        in [
+          localFiles
+          {
+            name = "betterLibrary";
+            src = betterLibrarySrc + "/CustomApps/betterLibrary";
+            appendName = false;
+          }
+        ]
+      '';
     };
 
     xpui = mkOption {
