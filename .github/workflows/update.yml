@@ -29,8 +29,13 @@ jobs:
           experimental-features = nix-command flakes
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
               
-    - name: Update Nix Flake Lock
-      uses: DeterminateSystems/update-flake-lock@v21
+    - name: Update flake.lock
+      uses: DeterminateSystems/update-flake-lock@main
+      with:
+        pr-title: "Update flake.lock" 
+        pr-labels: |                 
+          dependencies
+          automated
             
     - name: Run nvfetcher
       run: |
