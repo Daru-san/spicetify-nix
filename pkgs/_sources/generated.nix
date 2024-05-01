@@ -250,16 +250,16 @@
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "2462406736f716465e033675e0ee0eca832524bf";
+    version = "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "2462406736f716465e033675e0ee0eca832524bf";
+      rev = "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-f5A98/jMOCjBMOMeuuMltD57JpApvF5NGDzIb7zEw4M=";
+      sha256 = "sha256-cMwAliGu8gtpDz64EAkbBQUxw4jyycguzGO5JbJR3As=";
     };
-    date = "2024-04-14";
+    date = "2024-05-01";
   };
   nordSrc = {
     pname = "nordSrc";
@@ -365,18 +365,21 @@
     };
     date = "2023-09-24";
   };
-  spicetifyAppsSrc = {
-    pname = "spicetifyAppsSrc";
-    version = "7db99c2542088f87c981f891337a60209752db33";
-    src = fetchgit {
-      url = "https://github.com/harbassan/spicetify-apps";
-      rev = "7db99c2542088f87c981f891337a60209752db33";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-CBlKfdqgvYpn/R2a+BwlSc1pJoccUZlG5lYpm/EbggU=";
+  spicetifyLibrarySrc = {
+    pname = "spicetifyLibrarySrc";
+    version = "library-v0.1.0";
+    src = fetchTarball {
+      url = "https://github.com/harbassan/spicetify-apps/releases/download/library-v0.1.0/spicetify-library.release.zip";
+      sha256 = "sha256-CTcoS2MRhOPCNmkkV62iaWFjkGVs3CNCP8GTQlHdIDA=";
     };
-    date = "2024-05-01";
+  };
+  spicetifyStatsSrc = {
+    pname = "spicetifyStatsSrc";
+    version = "library-v0.1.0";
+    src = fetchTarball {
+      url = "https://github.com/harbassan/spicetify-apps/releases/download/stats-v0.3.2/spicetify-stats.release.zip";
+      sha256 = "sha256-+IemiID9ueW83Rxi4qzeOzXb3DWfM+AR/Py9pGzEboE=";
+    };
   };
   spotifyCanvasSrc = {
     pname = "spotifyCanvasSrc";

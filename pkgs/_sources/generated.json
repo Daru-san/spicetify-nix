@@ -362,7 +362,7 @@
     },
     "nameThatTuneSrc": {
         "cargoLocks": null,
-        "date": "2024-04-14",
+        "date": "2024-05-01",
         "extract": null,
         "name": "nameThatTuneSrc",
         "passthru": null,
@@ -372,12 +372,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2462406736f716465e033675e0ee0eca832524bf",
-            "sha256": "sha256-f5A98/jMOCjBMOMeuuMltD57JpApvF5NGDzIb7zEw4M=",
+            "rev": "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89",
+            "sha256": "sha256-cMwAliGu8gtpDz64EAkbBQUxw4jyycguzGO5JbJR3As=",
             "type": "git",
             "url": "https://github.com/theRealPadster/name-that-tune"
         },
-        "version": "2462406736f716465e033675e0ee0eca832524bf"
+        "version": "f88207f49d4f48ac53d6fe7b6e8ff5954c739b89"
     },
     "nordSrc": {
         "cargoLocks": null,
@@ -531,24 +531,33 @@
         },
         "version": "b4598784bb48d4b84db2133f9d89aeba8de558f6"
     },
-    "spicetifyAppsSrc": {
+    "spicetifyLibrarySrc": {
         "cargoLocks": null,
-        "date": "2024-05-01",
+        "date": null,
         "extract": null,
-        "name": "spicetifyAppsSrc",
+        "name": "spicetifyLibrarySrc",
         "passthru": null,
         "pinned": false,
         "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "7db99c2542088f87c981f891337a60209752db33",
-            "sha256": "sha256-CBlKfdqgvYpn/R2a+BwlSc1pJoccUZlG5lYpm/EbggU=",
-            "type": "git",
-            "url": "https://github.com/harbassan/spicetify-apps"
+            "sha256": "sha256-CTcoS2MRhOPCNmkkV62iaWFjkGVs3CNCP8GTQlHdIDA=",
+            "type": "tarball",
+            "url": "https://github.com/harbassan/spicetify-apps/releases/download/library-v0.1.0/spicetify-library.release.zip"
         },
-        "version": "7db99c2542088f87c981f891337a60209752db33"
+        "version": "library-v0.1.0"
+    },
+    "spicetifyStatsSrc": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "spicetifyStatsSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-+IemiID9ueW83Rxi4qzeOzXb3DWfM+AR/Py9pGzEboE=",
+            "type": "tarball",
+            "url": "https://github.com/harbassan/spicetify-apps/releases/download/stats-v0.3.2/spicetify-stats.release.zip"
+        },
+        "version": "library-v0.1.0"
     },
     "spotifyCanvasSrc": {
         "cargoLocks": null,
