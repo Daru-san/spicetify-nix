@@ -131,3 +131,7 @@ fetch.git = "https://github.com/theRealPadster/name-that-tune"
 src.git = "https://github.com/spicetify/spicetify-marketplace"
 src.branch = "dist"
 fetch.git = "https://github.com/spicetify/spicetify-marketplace"
+
+[betterFilesSrc]
+src.git = "https://github.com/Sowgro/betterLibrary"
+fetch.git = "https://github.com/Sowgro/betterLibrary"

@@ -7,6 +7,12 @@ with source; {
     appendName = false;
   };
 
+  betterLibrary = {
+    name = "betterLibrary";
+    src = betterLibrarySrc;
+    appendName = false;
+  };
+
   marketplace = {
     name = "marketplace";
     src = marketplaceSrc;
