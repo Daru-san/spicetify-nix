@@ -15,14 +15,14 @@ with source; {
 
   library = {
     name = "library";
-    src = spicetifyAppsSrc;
-    appendName = true;
+    src = spicetifyLibrarySrc;
+    appendName = false;
   };
 
   statistics = {
     name = "stats";
-    src = spicetifyAppsSrc;
-    appendName = true;
+    src = spicetifyStatsSrc;
+    appendName = false;
   };
 
   marketplace = {
