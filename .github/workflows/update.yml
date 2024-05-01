@@ -28,7 +28,10 @@ jobs:
         extra_nix_config: |
           experimental-features = nix-command flakes
           access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-
+              
+    - name: Update Nix Flake Lock
+      uses: DeterminateSystems/update-flake-lock@v21
+            
     - name: Run nvfetcher
       run: |
         nix run github:berberman/nvfetcher -- -o pkgs/_sources -c pkgs/nvfetcher.toml
