@@ -13,6 +13,24 @@ with source; {
     appendName = true;
   };
 
+  betterLocalFiles = {
+    name = "betterLocalFiles";
+    src = betterLocalFilesSrc;
+    appendName = false;
+  };
+
+  historyInSidebar = {
+    name = "historyInSidebar";
+    src = historyInSidebarSrc;
+    appendName = false;
+  };
+
+  playlistTags = {
+    name = "playlistTags";
+    src = playlistTagsSrc;
+    appendName = false;
+  };
+
   library = {
     name = "library";
     src = spicetifyLibrarySrc;

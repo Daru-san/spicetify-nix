@@ -136,16 +136,28 @@ fetch.git = "https://github.com/spicetify/spicetify-marketplace"
 src.git = "https://github.com/Sowgro/betterLibrary"
 fetch.git = "https://github.com/Sowgro/betterLibrary"
 
+[historyInSidebarSrc]
+src.git = "https://github.com/Bergbok/Spicetify-Creations"
+src.branch = "dist/history-in-sidebar"
+fetch.git = "https://github.com/Bergbok/Spicetify-Creations"
+
+[playlistTagsSrc]
+src.git = "https://github.com/Bergbok/Spicetify-Creations"
+src.branch = "dist/playlist-tags"
+fetch.git = "https://github.com/Bergbok/Spicetify-Creations"
+
+[betterLocalFilesSrc]
+src.git = "https://github.com/Pithaya/spicetify-apps-dist"
+src.branch = "dist/better-local-files"
+fetch.git = "https://github.com/Pithaya/spicetify-apps-dist"
+
 [spicetifyStatsSrc]
 src.github = "harbassan/spicetify-apps"
 src.regex = "stats-v*"
-src.from_pattern = "stats-v*"
-src.prefix = "stats-v*"
 fetch.tarball = "https://github.com/harbassan/spicetify-apps/releases/download/stats-v0.3.2/spicetify-stats.release.zip"
 
 [spicetifyLibrarySrc]
 src.github = "harbassan/spicetify-apps"
 src.regex = "library-v*"
 src.prefix = "library-v*"
-src.from_pattern = "library-v*"
 fetch.tarball = "https://github.com/harbassan/spicetify-apps/releases/download/$ver/spicetify-library.release.zip"
