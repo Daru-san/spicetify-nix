@@ -39,3 +39,15 @@ Adds a library page. [Source](https://github.com/harbassan/spicetify-apps)
 ### statistics
 
 Adds a page where you can see an analysis of your listening history. [Source](https://github.com/harbassan/spicetify-apps)
+
+### better-local-files 
+
+Adds a page where you can browse your local files. [Source](https://github.com/Pithaya/spicetify-apps)
+
+### history-in-sidebar 
+
+Adds a shortcut to your recently listened page. [Source](https://github.com/Bergbok/Spicetify-Creations)
+
+### playlist-tags 
+
+Allows you to search playlists using tags. [Source](https://github.com/Bergbok/Spicetify-Creations)
