@@ -13,20 +13,20 @@ with source; {
     appendName = true;
   };
 
-  betterLocalFiles = {
-    name = "betterLocalFiles";
+  better-local-files = {
+    name = "better-local-files";
     src = betterLocalFilesSrc;
     appendName = false;
   };
 
-  historyInSidebar = {
-    name = "historyInSidebar";
+  history-in-sidebar = {
+    name = "history-in-Sidebar";
     src = historyInSidebarSrc;
     appendName = false;
   };
 
-  playlistTags = {
-    name = "playlistTags";
+  playlist-tags = {
+    name = "playlist-tags";
     src = playlistTagsSrc;
     appendName = false;
   };
