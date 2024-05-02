@@ -7,33 +7,33 @@ with source; {
     appendName = false;
   };
 
-  betterLibrary = {
-    name = "betterLibrary";
-    src = "${betterLibrarySrc}/CustomApps";
-    appendName = true;
-  };
-
-  better-local-files = {
-    name = "better-local-files";
+  betterLocalFiles = {
+    name = "betterLocalFiles";
     src = betterLocalFilesSrc;
-    appendName = false;
-  };
-
-  history-in-sidebar = {
-    name = "history-in-Sidebar";
-    src = historyInSidebarSrc;
-    appendName = false;
-  };
-
-  playlist-tags = {
-    name = "playlist-tags";
-    src = playlistTagsSrc;
     appendName = false;
   };
 
   library = {
     name = "library";
     src = spicetifyLibrarySrc;
+    appendName = false;
+  };
+
+  betterLibrary = {
+    name = "betterLibrary";
+    src = "${betterLibrarySrc}/CustomApps";
+    appendName = true;
+  };
+
+  history-in-sidebar = {
+    name = "history-in-sidebar";
+    src = historyInSidebarSrc;
+    appendName = false;
+  };
+
+  playlistTags = {
+    name = "playlistTags";
+    src = playlistTagsSrc;
     appendName = false;
   };
 
