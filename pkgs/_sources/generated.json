@@ -56,6 +56,25 @@
         },
         "version": "c8438030837ce904cf8dc5308cfae15dc793aebd"
     },
+    "betterLocalFilesSrc": {
+        "cargoLocks": null,
+        "date": "2024-04-14",
+        "extract": null,
+        "name": "betterLocalFilesSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "d81b5e83a23e42501e11131d5d8d6d0af7a00c00",
+            "sha256": "sha256-dyCr7QQbJnBmzFoYGRv3xlOr3ZEZxyAT+Wu900pp2Wk=",
+            "type": "git",
+            "url": "https://github.com/Pithaya/spicetify-apps-dist"
+        },
+        "version": "d81b5e83a23e42501e11131d5d8d6d0af7a00c00"
+    },
     "bloomSrc": {
         "cargoLocks": null,
         "date": "2024-04-26",
@@ -248,7 +267,7 @@
     },
     "hidePodcastsSrc": {
         "cargoLocks": null,
-        "date": "2024-04-20",
+        "date": "2024-05-01",
         "extract": null,
         "name": "hidePodcastsSrc",
         "passthru": null,
@@ -258,12 +277,31 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b44486a1f45ae91ba747b16bdfaacedb1e10297f",
-            "sha256": "sha256-gmbwrkKrJGF91ki3do2s8WLLSkynb6dnsSe5gAYNcoY=",
+            "rev": "4b4d39842088ca4717166a04e914b338ea5a8680",
+            "sha256": "sha256-o62evqPjxKwJTpJsRM+9F1cuGLpIyy07tf5aO8KxNk8=",
             "type": "git",
             "url": "https://github.com/theRealPadster/spicetify-hide-podcasts"
         },
-        "version": "b44486a1f45ae91ba747b16bdfaacedb1e10297f"
+        "version": "4b4d39842088ca4717166a04e914b338ea5a8680"
+    },
+    "historyInSidebarSrc": {
+        "cargoLocks": null,
+        "date": "2024-03-13",
+        "extract": null,
+        "name": "historyInSidebarSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "ad17a7484a0f845ca77dfb6a77b12a9258ef084f",
+            "sha256": "sha256-9WKzx73W9hnlzVoxPrwqAa/JnPTogwp1wIiMcU/og5c=",
+            "type": "git",
+            "url": "https://github.com/Bergbok/Spicetify-Creations"
+        },
+        "version": "ad17a7484a0f845ca77dfb6a77b12a9258ef084f"
     },
     "historySrc": {
         "cargoLocks": null,
@@ -492,6 +530,25 @@
             "url": "https://github.com/jeroentvb/spicetify-playlist-icons"
         },
         "version": "7a4bcbf1fc6b37ac37e16cacb9c9bcd0fe99636e"
+    },
+    "playlistTagsSrc": {
+        "cargoLocks": null,
+        "date": "2024-04-30",
+        "extract": null,
+        "name": "playlistTagsSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "d54fc3590b13b04d21be73b15c957690112557e7",
+            "sha256": "sha256-ReFeMLB42/q5U5v/0DYJL3ZMV7Bf1BZCVKrHkinN5uk=",
+            "type": "git",
+            "url": "https://github.com/Bergbok/Spicetify-Creations"
+        },
+        "version": "d54fc3590b13b04d21be73b15c957690112557e7"
     },
     "powerBarSrc": {
         "cargoLocks": null,
