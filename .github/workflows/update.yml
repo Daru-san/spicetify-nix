@@ -7,6 +7,8 @@ on:
       - 'flake.lock'
   repository_dispatch:
   workflow_dispatch:
+  schedule:
+    - cron:  '19 18 * * *'
 
 jobs:
   CI:
