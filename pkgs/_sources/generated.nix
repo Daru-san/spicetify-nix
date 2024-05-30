@@ -16,16 +16,16 @@
   };
   betterGenreSrc = {
     pname = "betterGenreSrc";
-    version = "ef5b0222cbb106d52103325e0bba7e19babe4ab8";
+    version = "304b0af9c580b5301bd589a5e1ffabffc0c20e53";
     src = fetchgit {
       url = "https://github.com/Vexcited/better-spotify-genres";
-      rev = "ef5b0222cbb106d52103325e0bba7e19babe4ab8";
+      rev = "304b0af9c580b5301bd589a5e1ffabffc0c20e53";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Z4u/RK/lb7kkB4f4MTXh7sPXDFV37ZoUxwdHA3BnSDg=";
+      sha256 = "sha256-eaHOJKoVf4HzhZEJiMRCDyEYUroI4/daC6CD4z0E16Y=";
     };
-    date = "2024-02-22";
+    date = "2024-05-29";
   };
   betterLibrarySrc = {
     pname = "betterLibrarySrc";

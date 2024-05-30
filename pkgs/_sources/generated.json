@@ -20,7 +20,7 @@
     },
     "betterGenreSrc": {
         "cargoLocks": null,
-        "date": "2024-02-22",
+        "date": "2024-05-29",
         "extract": null,
         "name": "betterGenreSrc",
         "passthru": null,
@@ -30,12 +30,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ef5b0222cbb106d52103325e0bba7e19babe4ab8",
-            "sha256": "sha256-Z4u/RK/lb7kkB4f4MTXh7sPXDFV37ZoUxwdHA3BnSDg=",
+            "rev": "304b0af9c580b5301bd589a5e1ffabffc0c20e53",
+            "sha256": "sha256-eaHOJKoVf4HzhZEJiMRCDyEYUroI4/daC6CD4z0E16Y=",
             "type": "git",
             "url": "https://github.com/Vexcited/better-spotify-genres"
         },
-        "version": "ef5b0222cbb106d52103325e0bba7e19babe4ab8"
+        "version": "304b0af9c580b5301bd589a5e1ffabffc0c20e53"
     },
     "betterLibrarySrc": {
         "cargoLocks": null,
