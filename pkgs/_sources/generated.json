@@ -61,7 +61,7 @@
     },
     "betterLocalFilesSrc": {
         "cargoLocks": null,
-        "date": "2024-04-14",
+        "date": "2024-06-23",
         "extract": null,
         "name": "betterLocalFilesSrc",
         "passthru": null,
@@ -71,13 +71,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d81b5e83a23e42501e11131d5d8d6d0af7a00c00",
-            "sha256": "sha256-dyCr7QQbJnBmzFoYGRv3xlOr3ZEZxyAT+Wu900pp2Wk=",
+            "rev": "35068b4f59d0b006aef1ca5efad3429df5ee7717",
+            "sha256": "sha256-THvApry5WwAQJYgHC45faLrcNl0xtTTeA640rkygWHM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Pithaya/spicetify-apps-dist"
         },
-        "version": "d81b5e83a23e42501e11131d5d8d6d0af7a00c00"
+        "version": "35068b4f59d0b006aef1ca5efad3429df5ee7717"
     },
     "bloomSrc": {
         "cargoLocks": null,

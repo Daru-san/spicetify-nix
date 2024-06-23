@@ -45,17 +45,17 @@
   };
   betterLocalFilesSrc = {
     pname = "betterLocalFilesSrc";
-    version = "d81b5e83a23e42501e11131d5d8d6d0af7a00c00";
+    version = "35068b4f59d0b006aef1ca5efad3429df5ee7717";
     src = fetchgit {
       url = "https://github.com/Pithaya/spicetify-apps-dist";
-      rev = "d81b5e83a23e42501e11131d5d8d6d0af7a00c00";
+      rev = "35068b4f59d0b006aef1ca5efad3429df5ee7717";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dyCr7QQbJnBmzFoYGRv3xlOr3ZEZxyAT+Wu900pp2Wk=";
+      sha256 = "sha256-THvApry5WwAQJYgHC45faLrcNl0xtTTeA640rkygWHM=";
     };
-    date = "2024-04-14";
+    date = "2024-06-23";
   };
   bloomSrc = {
     pname = "bloomSrc";
