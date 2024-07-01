@@ -101,17 +101,17 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "8f79774155455b3c1beafb4c0863eeb684c23ea8";
+    version = "0c016e8f4d8b54f59797b2ec1941e7e45d6aa1c6";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "8f79774155455b3c1beafb4c0863eeb684c23ea8";
+      rev = "0c016e8f4d8b54f59797b2ec1941e7e45d6aa1c6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Oel1vHHCAkVIlSnU4z1rSj84YHYspzUItAGO1jvxUrQ=";
+      sha256 = "sha256-QkDigjRUpA63Jirhq426LOVBm0CDF2CmNUzTMiFXe1o=";
     };
-    date = "2024-06-17";
+    date = "2024-07-01";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -395,17 +395,17 @@
   };
   playlistTagsSrc = {
     pname = "playlistTagsSrc";
-    version = "ff4f0bc1e56aa0bd7a67f523d8439d30624ef5cf";
+    version = "b5974eb52fe57c0f806e34cfe3446287dd137d48";
     src = fetchgit {
       url = "https://github.com/Bergbok/Spicetify-Creations";
-      rev = "ff4f0bc1e56aa0bd7a67f523d8439d30624ef5cf";
+      rev = "b5974eb52fe57c0f806e34cfe3446287dd137d48";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-iel7jHVRkPGMOkl+q+13bO50qfYrXGyH2KseWdzusT4=";
+      sha256 = "sha256-Jy8X9bYsJcvV3c+IH6n45L4JKWQAYb6ZRrMi1DmCM4E=";
     };
-    date = "2024-05-03";
+    date = "2024-07-01";
   };
   powerBarSrc = {
     pname = "powerBarSrc";
